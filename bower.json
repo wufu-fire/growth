@@ -1,0 +1,14 @@
+{
+  "name": "growth",
+  "description": "The process of recording learning.",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "https://github.com/xuanGetit/growth",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

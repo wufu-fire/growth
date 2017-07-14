@@ -6,10 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xuanGetit/growth.git"
-  },
+  "repository": "git+https://github.com/xuanGetit/growth.git",
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -18,5 +15,9 @@
   "homepage": "https://github.com/xuanGetit/growth#readme",
   "devDependencies": {
     "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "add": "^2.0.6",
+    "yarn": "^0.27.5"
   }
 }
