@@ -1,0 +1,22 @@
+{
+  "name": "growth",
+  "version": "1.0.0",
+  "description": "The process of recording learning.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuanGetit/growth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xuanGetit/growth/issues"
+  },
+  "homepage": "https://github.com/xuanGetit/growth#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
