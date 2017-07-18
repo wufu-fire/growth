@@ -27,5 +27,5 @@ app.use(function*() {
     // (3) 进入 response 中间件，没有捕获到下一个符合条件的中间件，传递到 upstream
     this.body = 'Hello World';
 });
-console.log(ctx.response)
+
 app.listen(5000);
