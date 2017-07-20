@@ -1,0 +1,10 @@
+{
+    "key1": "value2",
+    "key2": "value2",
+    "routers": [{
+        "routerName": "/string",
+        "data": {
+            "msg": "hello"
+        }
+    }]
+}

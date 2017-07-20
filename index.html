@@ -6,7 +6,7 @@
     <title>vue-example</title>
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <!--<link rel="stylesheet" type="text/css" href="index.css">-->
-    <!--<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>-->
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -16,31 +16,26 @@
         <a class="tabitem" href="#shoplist-three">tab3</a>
     </div>
     <div class="container">
-
-        <div class="shoplist" id="shoplist-two">
-            <div class="shop-item">222</div>
-            <div class="shop-item">222</div>
-            <div class="shop-item">222</div>
-            <div class="shop-item">222</div>
-            <div class="shop-item">222</div>
-            <div class="shop-item">222</div>
-            <div class="shop-item">222</div>
-            <div class="shop-item">222</div>
-            <div class="shop-item">222</div>
-            <div class="shop-item">222</div>
-        </div>
-        <div class="shoplist" id="shoplist-three">
-            <div class="shop-item">333</div>
-            <div class="shop-item">333</div>
-            <div class="shop-item">333</div>
-            <div class="shop-item">333</div>
-            <div class="shop-item">333</div>
-            <div class="shop-item">333</div>
-            <div class="shop-item">333</div>
-            <div class="shop-item">333</div>
-        </div>
+        <div class="button" style="width: 100px;height: 50px;border: 1px solid red;">点击我</div>
     </div>
     <!--<script src="index.js"></script>-->
+    <script>
+        $(function() {
+            $('.button').click(function() {
+                $.ajax({
+                        method: "POST",
+                        url: "http://localhost:3004/string",
+                        data: {
+                            name: "John",
+                            location: "Boston"
+                        }
+                    })
+                    .done(function(msg) {
+                        alert("Data Saved: " + msg);
+                    });
+            })
+        })
+    </script>
 </body>
 </body>
 
